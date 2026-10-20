@@ -17,9 +17,10 @@ int main()
     Total=Physics+Chemistry+Mathematics;
     Average=Total/3.0;
 
-    printf("------------------------------\n");
-    printf("PCM Total:%.2f%%\n",Average);
-    printf("                                     \n");
+    printf("-------------------------------\n");
+    printf("PCM Total:%.2f/300\n",Total);
+    printf("Average:%.2f%%\n",Average);
+    printf("-------------------------------\n");
 
     //Eligible check using the conditional operator(condition? true_case:false_case)
 
